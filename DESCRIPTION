@@ -14,5 +14,5 @@ LazyData: true
 Imports: 
     MASS (>= 7.3.0),
     stats (>= 4.0.0)
-Authors@R: person("Xin", "Bing", email = "xb43@cornell.edu", role = c("aut", "cre"))
+Authors@R: person("Xin", "Bing", email = "bingx1990@hotmail.edu", role = c("aut", "cre"))
 RoxygenNote: 7.1.1
