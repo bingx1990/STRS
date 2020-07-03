@@ -1,0 +1,18 @@
+Package: STRS
+Type: Package
+Title: Self-tuning rank selection in multivariate regression
+Description: An implementation of the Self-tuning Rank Selection procedure in R. 
+    The procedure iteratively adapts the penalty term to the optimal signal-to-
+    noise ratio in a fully data-driven way. The original setting is the multiv-
+    ariate regression with reduced-rank coefficient matrix, but can be adapted 
+    to the rank selection in factor model. 
+Version: 0.1.0
+Maintainer: The package maintainer <yourself@somewhere.net>
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    MASS (>= 7.3.0),
+    stats (>= 4.0.0)
+Authors@R: person("Xin", "Bing", email = "xb43@cornell.edu", role = c("aut", "cre"))
+RoxygenNote: 7.1.1
