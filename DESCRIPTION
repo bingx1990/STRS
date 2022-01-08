@@ -7,12 +7,12 @@ Description: An implementation of the Self-tuning Rank Selection procedure in R.
     ariate regression with reduced-rank coefficient matrix, but can be adapted 
     to the rank selection in factor model. 
 Version: 0.1.0
-Maintainer: The package maintainer <bingx1990@hotmail.edu>
+Maintainer: The package maintainer <xb43@cornell.edu>
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
     MASS (>= 7.3.0),
     stats (>= 4.0.0)
-Authors@R: person("Xin", "Bing", email = "bingx1990@hotmail.edu", role = c("aut", "cre"))
+Authors@R: person("Xin", "Bing", email = "xb43@cornell.edu", role = c("aut", "cre"))
 RoxygenNote: 7.1.1
