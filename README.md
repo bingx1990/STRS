@@ -6,5 +6,7 @@ Example:
  	Let Y and X be a n by m response matrix and a n by p feature design matrix generated as Y = XA + E. 
   SRS(Y, X) returns the estimated rank of the coefficient matrix A via regressing Y on X.
      
-
+Install the STRS package:
+  'library(devtools)'
+  'install_github("bingx1990/STRS")'
 
