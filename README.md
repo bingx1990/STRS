@@ -1,3 +1,5 @@
+# Self-tuning Rank Selection In Multivariate Response Regression
+
 This package implements a self-tuning procedure of selecting the rank of the regression coefficient matrix in multivariate response regression. The procedure can be used to select the low rank under a factor model. 
 
 Example:  
