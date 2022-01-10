@@ -7,6 +7,6 @@ Example:
   SRS(Y, X) returns the estimated rank of the coefficient matrix A via regressing Y on X.
      
 Install the STRS package:
-  'library(devtools)'
-  'install_github("bingx1990/STRS")'
+  `library(devtools)`
+  `install_github("bingx1990/STRS")`
 
