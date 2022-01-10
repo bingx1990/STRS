@@ -1,4 +1,4 @@
-#     This file contains instructions of using the self-tuning rank selection procedure 
+#   This file contains instructions of using the self-tuning rank selection procedure 
 
 required library: MASS
 required source:  Helper.R
