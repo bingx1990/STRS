@@ -1,15 +1,14 @@
-#   This file contains instructions of using the self-tuning rank selection procedure 
+# Self-tuning Rank Selection In Multivariate Response Regression
 
-required library: MASS
-required source:  Helper.R
-
-
-main function: SRS in STRS.R
+This package implements a self-tuning procedure of selecting the rank of the regression coefficient matrix in multivariate response regression models. The procedure can be used to select the rank of the factor components under a factor model. 
 
 Example:  
- 	For the data matrix (Y, X):
- 	SRS(Y, X) returns the estimated rank.
-      
-Other specifications of SRS are documented in STRS.R
-
+ 	Let Y and X be a n by m response matrix and a n by p feature design matrix generated as Y = XA + E. 
+  SRS(Y, X) returns the estimated rank of the coefficient matrix A via regressing Y on X.
+     
+The following commands install the `STRS` package in R (require the installation of `devtools` package).
+  ```
+  library(devtools)
+  install_github("bingx1990/STRS")
+  ```
 
