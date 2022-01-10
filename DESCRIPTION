@@ -1,7 +1,7 @@
 Package: STRS
 Type: Package
 Title: Self-tuning rank selection in multivariate response regression
-Description: An implementation of the Self-tuning Rank Selection procedure in R. 
+Description: An implementation of the Self-tuning Rank Selection procedure. 
     The procedure iteratively adapts the penalty term to the optimal signal-to-
     noise ratio in a fully data-driven way. The original setting is the multiv-
     ariate regression with reduced-rank coefficient matrix, but can be adapted 
