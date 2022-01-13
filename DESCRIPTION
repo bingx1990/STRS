@@ -18,3 +18,5 @@ Authors@R: person("Xin", "Bing", email = "xb43@cornell.edu", role = c("aut", "cr
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
+URL: https://github.com/bingx1990/STRS.git, https://projecteuclid.org/journals/annals-of-statistics/volume-47/issue-6/Adaptive-estimation-of-the-rank-of-the-coefficient-matrix-in/10.1214/18-AOS1774.full
+

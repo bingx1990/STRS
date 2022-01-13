@@ -31,10 +31,7 @@
 #'   when \code{rank_X} is NULL. Default is \eqn{1e-4}.
 #' @param C A numerical constant for the intial lambda. Default is \eqn{2.01}.
 #'
-#' @return A list of object including: \itemize{
-#'   \item\code{r} The estimated rank.
-#'   \item\code{}
-#' }
+#' @return  The estimated rank.
 #'
 #' @examples
 #'   library(STRS)
