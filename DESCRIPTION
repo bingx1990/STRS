@@ -16,3 +16,5 @@ Imports:
     stats (>= 4.0.0)
 Authors@R: person("Xin", "Bing", email = "xb43@cornell.edu", role = c("aut", "cre"))
 RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
