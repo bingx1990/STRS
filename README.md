@@ -11,4 +11,10 @@ The following commands install the `STRS` package in R (require the installation
   library(devtools)
   install_github("bingx1990/STRS")
   ```
+Example:
+  ```
+  library(STRS)
+  est_rank <- STRS(Y, X)
+  ```
+
 
