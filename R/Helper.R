@@ -9,7 +9,7 @@
 #'   \item a vector of all losses,
 #'   \item a vector of \eqn{d_j(PY)^2}.
 #' }
-#'
+#' @noRd
 
 Compute_total_loss = function(Y, X) {
   if (is.null(X)) {
@@ -43,6 +43,7 @@ Compute_total_loss = function(Y, X) {
 #' @param lowerRank The smallest value of the target rank. The default is \eqn{0}.
 #'
 #' @return The estimated rank.
+#' @noRd
 
 
 Est_rank <- function(losses, lambda, n, q, m, lowerRank = 0) {
@@ -71,6 +72,7 @@ Est_rank <- function(losses, lambda, n, q, m, lowerRank = 0) {
 #' @param Nsim The number of repetitions in the MC with default equal to \eqn{200}.
 #'
 #' @return A vector of singular values from 1 to \code{q}.
+#' @noRd
 
 
 MCSquarePEs = function(q, m, Nsim = 200) {
@@ -97,7 +99,7 @@ MCSquarePEs = function(q, m, Nsim = 200) {
 #' @param C A numerical constant with default equal to \eqn{1.05}.
 #'
 #' @return A numerical value of the new lambda.
-
+#' @noRd
 
 Update_lbd_MC = function(n, q, m, r, SquarePEs, resid, C = 1.05) {
 
@@ -134,6 +136,7 @@ Update_lbd_MC = function(n, q, m, r, SquarePEs, resid, C = 1.05) {
 #'   \code{simplified} to TRUE if n >> m or m << n.
 #'
 #' @return A numerical value of the new lambda.
+#' @noRd
 
 Update_lbd_DB <- function(n, q, m, r, C = 0.01, simplified = F) {
 

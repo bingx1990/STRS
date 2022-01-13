@@ -20,23 +20,22 @@ STRS(
 
 \item{data_X}{A \eqn{n} by \eqn{p} feature data matrix.}
 
-\item{type}{One choice of "STRS-DB", "STRS-MC" and "SSTRS". The default is "STRS-MC".
-\itemize{
-\item "STRS-DB" and "STRS-MC" are for general dimensional settings;
-\item "STRS-DB" uses deterministic expressions for updating lambda while
-"STRS-MC" updates lambda by Monte-Carlo simulations. "STRS-DB" is recommended
-if "STRS-MC" is computationally burdensome.
-\item "SSTRS" is a simpler version of "STRS-DB" when either n >> m or n << m.
-}}
+\item{type}{One choice of "STRS-DB", "STRS-MC" and "SSTRS". The default is
+"STRS-MC". \itemize{ \item "STRS-DB" and "STRS-MC" are for general
+dimensional settings; \item "STRS-DB" uses deterministic expressions for
+updating lambda while "STRS-MC" updates lambda by Monte-Carlo simulations.
+"STRS-DB" is recommended if "STRS-MC" is computationally burdensome. \item
+"SSTRS" is a simpler version of "STRS-DB" when either n >> m or n << m. }}
 
-\item{rank_X}{An integer, the specified rank of \code{data_X}. If unspecified,
-this is estimated from \code{data_X} as the largest \eqn{k} such that
-\deqn{\sigma_k(data_X) \ge rank_tol.}}
+\item{rank_X}{An integer, the specified rank of \code{data_X}. If
+unspecified, this is estimated from \code{data_X} as the largest \eqn{k}
+such that \deqn{\sigma_k(data_X) \ge rank_tol.}}
 
-\item{self_tune}{A logical flag. TRUE if iteratively estimate the rank
-and FALSE otherwise. The default is TRUE.}
+\item{self_tune}{A logical flag. TRUE if iteratively estimate the rank and
+FALSE otherwise. The default is TRUE.}
 
-\item{rep_MC}{An integer. The number of Monte Carlo simulations. Default is \eqn{200}.}
+\item{rep_MC}{An integer. The number of Monte Carlo simulations. Default is
+\eqn{200}.}
 
 \item{rank_tol}{The tolerence level for determining the rank of \code{data_X}
 when \code{rank_X} is NULL. Default is \eqn{1e-4}.}
@@ -47,6 +46,7 @@ when \code{rank_X} is NULL. Default is \eqn{1e-4}.}
 The estimated rank.
 }
 \description{
-Estimate the reduced-rank of the coefficient in multivariate linear regression.
-Can deal with the selection of the number of factors in factor models.
+Estimate the reduced-rank of the coefficient in multivariate linear
+regression. Can deal with the selection of the number of factors in factor
+models.
 }
