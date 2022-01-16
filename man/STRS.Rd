@@ -54,4 +54,5 @@ factor models.
 \examples{
   library(STRS)
   est_rank <- STRS(Y, X)
+  est_rank <- STRS(Y, X, type = "STRS-DB")
 }
